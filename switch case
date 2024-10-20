@@ -1,0 +1,32 @@
+#include<stdio.h> \\ using switch case print the days of week
+int main()
+{
+    int days;
+    scanf("%d",&days);
+    switch(days){
+        case 1:
+        printf("Sunday");
+        break;
+        case 2:
+        printf("Monday");
+        break;
+        case 3:
+        printf("Tuesday");
+        break;
+        case 4:
+        printf("Wednesday");
+        break;
+        case 5:
+        printf("Thursday");
+        break;
+        case 6:
+        printf("Friday");
+        break;
+        case 7:
+        printf("Saturday");
+        break;
+        default:
+        printf("No day");
+    }
+    return 0;
+}
