@@ -1,4 +1,4 @@
-#include<stdio.h> \\ using switch case print the days of week
+#include<stdio.h> // using switch case print the days of week
 int main()
 {
     int days;
