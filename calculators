@@ -1,0 +1,11 @@
+#include<stdio.h>//BMI(body mass index) calculator
+void main()
+{
+    int w,h,BMI;
+    printf("enter your height:");
+    scanf("%d",&w);
+    printf("enter your weight:");
+    scanf("%d",&h);
+    BMI=h*h/w;
+    printf("BMI is %d",BMI);
+}
