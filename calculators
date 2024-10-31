@@ -39,6 +39,26 @@ void main()
 }
 
 -------------------------------------------------------------------------------------------------------------------------------------------
+//compound interest calculator
+#include<stdio.h>
+#include<math.h>
+void main()
+{
+    int n;
+    double p,r,t,compound_interest;
+    printf("enter the principle value:");
+    scanf("%lf",&p);
+    printf("enter the rate of interest:");
+    scanf("%lf",&r);
+    printf("enter the time:");
+    scanf("%lf",&t);
+    printf("enter the number of years:");
+    scanf("%d",&n);
+    compound_interest=p*pow((1+r)/(100*n),n*t);
+    printf("the compound interest is %2lf",&compound_interest);
+    
+    
+}
 
 
 
