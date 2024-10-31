@@ -26,4 +26,24 @@ void main()
 }
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ /*kalki wrote a book ponniyin selvan and published the first edition with 50,525 copies .since the book was popular among the peoples 
+he decided to publish the second edition with 40,399.calculate the total number of copies pubished */
+#include<stdio.h>
+void main()
+{
+    int first_edition=50525,second_edition=40399;
+    int sum;
+    sum=first_edition+second_edition;
+    printf("the total number of books published is %d",sum);
     
+}
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
