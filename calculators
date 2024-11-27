@@ -1,13 +1,30 @@
 #include<stdio.h>//BMI(body mass index) calculator
 void main()
 {
-    int w,h,BMI;
+#include<stdio.h>
+void main()
+{
+    int weight;
+    float height,BMI;
     printf("enter your height:");
-    scanf("%d",&w);
+    scanf("%f\n",&height);
     printf("enter your weight:");
-    scanf("%d",&h);
-    BMI=h*h/w;
-    printf("BMI is %d",BMI);
+    scanf("%d\n",&weight);
+    BMI=weight/(height*height);
+    printf("BMI is %f\n",BMI);
+    if(BMI<18.5)
+    {
+        printf("you are underweight");
+    }
+    else if(BMI==18.5||BMI<=29.9)
+    {
+        printf("you are normal");
+    }
+    else(BMI>30);
+    {
+        printf("you are overweight");
+    }
+
 }
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 //simple interest calculator
