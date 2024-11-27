@@ -1,0 +1,43 @@
+/*C program that takes marks as input and assigns a grade based on the following conditions
+     *90-100   : grade A
+     *80-89    : grade B
+     *70-79    : grade c
+     *60-69    : grade D
+     *below 60 : grade F */
+#include<stdio.h>
+void main()
+{
+    int marks;
+    printf("enter the marks :");
+    scanf("%d",&marks);
+    
+    if(marks>=90 && marks<=100)
+    {
+        printf("grade A\n");
+    }
+    else if(marks>=80 && marks<=89)
+    {
+        printf("grade B\n");
+    }
+        else if(marks>=70 && marks<=79)
+    {
+        printf("grade C\n");
+    }
+        else if(marks>=60 && marks<=69)
+    {
+        printf("grade D\n");
+    }
+        else if(marks<60)
+    {
+        printf("grade F\n");
+    }
+    else
+    {
+        printf("invalid marks\n");
+    }
+
+    
+}
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
