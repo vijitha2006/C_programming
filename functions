@@ -58,5 +58,47 @@ output : before swapping a = 10, b = 20
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//C program to find leap year using functions
+#include<stdio.h>
 
+  
+int isleapyear(int year)
+{
+      
+      if((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0))
+      {
+       return 1;   //if true returns the value 1
+      }
+      else
+      {
+          return 0;  //if false returns the value 0
+      }
+        
+}
+      
+int main()
+{
+          int year;
+          printf("enter a year :");
+          scanf("%d",&year);
+          if(isleapyear(year))
+          {
+              
+              printf("%d is a leap year.\n",year);
+              
+          }
+          else
+          {
+              
+              printf("%d is not a leap year.\n",year);
+          }
+          
+          return 0;
+}
+sample output:
+enter a year :
+2001 is not a leap year.
+
+          
+  --------------------------------------------------------------------------------------------------------------------------------------
 
