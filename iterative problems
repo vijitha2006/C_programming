@@ -21,3 +21,23 @@ sample output : enter the number : 123456
 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// C program to calculate the sum of the first n natural numbers
+#include<stdio.h>
+int main()
+{
+    int n,sum=0;
+    printf("enter the number n :\n");
+    scanf("%d",&n);
+    for(int i=0;i<=n;i++)
+    {
+        sum=sum+i;
+    }
+    
+    printf(" the sum of the natural numbers is %d",sum);
+    return 0;
+}
+
+sample output : enter the number n : 6
+                the sum of the natural numbers is 21
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
