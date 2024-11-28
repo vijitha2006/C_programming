@@ -96,7 +96,7 @@ int main()
           return 0;
 }
 sample output:
-enter a year :
+enter a year : 2001
 2001 is not a leap year.
 
           
